@@ -1,0 +1,67 @@
+/* Styles de base */
+body {
+  font-family: "Chillax";
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Barre de navigation */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  position: relative;
+}
+
+/* Bouton burger toujours visible */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+/* Barres du bouton burger */
+.bar {
+  width: 30px;
+  height: 2px;
+  background-color: var(--blanc, #e1e2dc);
+  transition: 0.3s;
+}
+
+/* Cache le menu au départ */
+.nav-links {
+  list-style: none;
+  position: absolute;
+  top: 60px;
+  left: 30%;
+  transform: translateX(-50%);
+  width: 200px;
+  background: var(--beige, #9b948a);
+  padding: 15px;
+  display: none; /* Caché par défaut */
+  text-align: center;
+}
+
+.nav-links li {
+  margin: 10px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--blanc, #e1e2dc);
+  font-size: 22px;
+}
+
+/* Afficher le menu quand on clique sur le bouton */
+.menu-toggle {
+  display: none; /* Cache la checkbox */
+}
+
+.menu-toggle:checked + .menu-icon + .nav-links {
+  display: block;
+}

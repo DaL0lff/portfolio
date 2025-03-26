@@ -1,0 +1,23 @@
+.home-title {
+  color: var(--blanc, #e1e2dc);
+}
+
+.home-background {
+  background: url(/src/img/accueil-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  aspect-ratio: 16/9;
+}
+
+.home-moi {
+  width: 1130px;
+  height: 1549px;
+  align-items: center;
+}
+
+.home-detail {
+  color: #20201e;
+  text-align: center;
+  margin-top: 463px;
+}
