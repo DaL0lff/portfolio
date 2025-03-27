@@ -11,8 +11,8 @@
 }
 
 .home-moi {
-  width: 1130px;
-  height: 1549px;
+  width: 500px;
+  height: 900px;
   align-items: center;
 }
 
@@ -20,4 +20,20 @@
   color: #20201e;
   text-align: center;
   margin-top: 463px;
+}
+
+.home-cv {
+  font-size: 54px;
+}
+
+.home-button {
+  display: flex;
+  width: 356px;
+  height: 64px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: var(--beige, #9b948a);
 }
