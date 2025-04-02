@@ -1,8 +1,14 @@
 .contact-backgrund {
   background-image: url(/src/img/pinguin.png);
-  // mix-blend-mode: color-burn;
   width: 100%;
-  height: 834px;
-  object-fit: contain;
+  height: 740px;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
+  opacity: 0.9;
+}
+
+.contact-text {
+  color: var(--blanc, #e1e2dc);
+  margin-top: 50px;
 }

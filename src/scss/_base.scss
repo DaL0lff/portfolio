@@ -21,32 +21,6 @@ body {
   background-size: cover;
 }
 
-@font-face {
-  font-family: "coffekan";
-  src: url("../font/coffekan-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "chillax";
-  src: url("../font/Chillax-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
-}
-@font-face {
-  font-family: "chillax";
-  src: url("../font/Chillax-Medium.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: fallback;
-}
-@font-face {
-  font-family: "chillax";
-  src: url("../font/Chillax-Extralight.woff2") format("woff2");
-  font-weight: 100;
-  font-style: normal;
-  font-display: fallback;
-}
-
 h1 {
   color: var(--blanc, #e1e2dc);
   text-align: center;
