@@ -16,6 +16,14 @@ body {
   margin-top: 80px;
 }
 
+.t-projets .navbar {
+  margin-top: 0px;
+  padding-top: 35px;
+  .bar {
+    background-color: var(--brun, #6f6357);
+  }
+}
+
 /* Bouton burger toujours visible */
 .menu-icon {
   display: flex;
