@@ -8,30 +8,21 @@
 
 .text {
   font-family: "Chillax";
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 32px;
-}
-
-.button {
-  font-family: "Chillax";
-  font-size: 24px;
-  font-weight: 400;
-  color: #dfe0db;
-  font-feature-settings: "ss02" on;
-  display: flex;
-  width: 356px;
-  height: 64px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  background: var(--beige, #9b948a);
 }
 
 .line {
   flex-grow: 1;
   height: 1px;
   background: rgba(0, 0, 0, 0.2);
+}
+
+.l-footer {
+  aspect-ratio: 2;
+  background-image: url("../img/accueil-fond.png");
+  background-size: cover;
+  background-position: top center;
+  background-size: cover;
 }

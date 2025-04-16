@@ -7,4 +7,6 @@
   gap: 18px;
   flex-shrink: 0;
   margin: 30 0 30 0px;
+  mix-blend-mode: color-burn;
+  filter: brightness(0.7) contrast(1.2);
 }

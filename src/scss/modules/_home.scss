@@ -35,6 +35,7 @@
     border-radius: 22px;
     mix-blend-mode: color-burn;
     filter: brightness(0.7) contrast(1.2);
+    transition: transform 0.8s ease;
   }
   .detail {
     margin-top: 8px;
@@ -49,4 +50,11 @@
 }
 .home-text {
   margin: 100 0 30 0px;
+}
+
+.home-projet img:hover {
+  mix-blend-mode: normal;
+  filter: brightness(100%) contrast(100%);
+  transform: scale(106%);
+  box-shadow: 5px 8px 11px 0px rgba(0, 0, 0, 0.25);
 }

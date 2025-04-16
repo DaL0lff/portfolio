@@ -1,19 +1,27 @@
 .project-arrow {
-  color: var(--brun, #6f6357);
+  stroke: var(--brun, #6f6357);
   padding-top: 35px;
 }
 
 .project-page {
   h2 {
-    transform: rotate(-90deg);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(-180deg);
+    position: absolute;
+    margin-top: 100px;
   }
 
   img {
     filter: grayscale(100%);
-    opacity: 90%;
+    position: relative;
+    box-shadow: -3px 3px 20px 0px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s ease;
   }
 }
 
-.graphisme {
-  margin: 200px;
+.project-page img:hover {
+  z-index: 900;
+  transform: scale(1.05);
+  filter: none;
 }
